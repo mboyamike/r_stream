@@ -1,16 +1,13 @@
 # r_stream
 
-A new Flutter application.
+This is a flutter application to demonstrate the working of video player. 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project uses firebase for authentication. The APK can be downloaded under
+releases in this repository.
+Since I could not place the google-services.json file on a public repository 
+(security reasons), if you would like to compile it you would have to create 
+a firebase project, enable authentication and download the 
+google-services.json file. After placing the file in the android/app 
+directory, the project should compile without further changes.
